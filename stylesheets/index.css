@@ -58,7 +58,7 @@ html{
 }
 
 body{
-    background-color: hsl(330, 100%, 98%);
+    background-color: hsl(0, 0%, 100%);
     width: 735px;
     border-radius: 30px;
     padding: 40px;
@@ -70,12 +70,58 @@ img{
     height: 300px;
     border-radius: 10px;
 }
+
 .title{
     color: hsl(24, 5%, 18%);
     font-family: Young-Serif;
     font-weight: 400px;
 }
 
+.description{
+    padding-bottom: 1%;
+}
+
+.preparationTileParent{
+    background-color: hsl(330, 100%, 98%);
+    height: 150px;
+    border-radius: 10px;
+}
+
+.preparationTileParent h3{
+    font-family: Outfit;
+    color: hsl(332, 51%, 32%);
+    padding-left: 2.5%;
+    padding-top: 2%;
+}
+
+.preparationTileParent li{
+    padding-bottom: 10px;
+    padding-left: 2%;
+}
+
+.preparationTileParent li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+.ingredientsTileParent h2{
+    color: hsl(14, 45%, 36%);
+    padding-top: 1%;
+}
+
+.ingredientsTileParent li{
+    padding-bottom: 10px;
+    position: relative;
+    left: -2.5%;
+}
+
+.ingredientsTileParent li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+.ingredientsTileParent li span{
+    position: relative;
+    left: 1.5%;
+}
 
 /* footer */
 .attribution{ 
