@@ -1,0 +1,68 @@
+@font-face {
+    /* bold tag */
+    font-family: 'Young-Serif';
+    src: url('/assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+@font-face{
+    /* main content */
+    font-family: 'Outfit';
+    src: url('/assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+@font-face{
+    /* main content */
+    font-family: 'Outfit-Black';
+    src: url('/assets/fonts/outfit/static/Outfit-Black.ttf');
+}
+@font-face{
+    /* main content */
+    font-family: 'Outfit-Bold';
+    src: url('/assets/fonts/outfit/static/Outfit-Bold.ttf');
+}
+@font-face{
+    /* main content */
+    font-family: 'Outfit-ExtraBold';
+    src: url('/assets/fonts/outfit/static/Outfit-ExtraBold.ttf');
+}
+@font-face{
+    /* main content */
+    font-family: 'Outfit-ExtraLight';
+    src: url('/assets/fonts/outfit/static/Outfit-ExtraLight.ttf');
+}
+@font-face{
+    /* main content */
+    font-family: 'Outfit-Medium';
+    src: url('/assets/fonts/outfit/static/Outfit-Medium.ttf');
+}
+@font-face{
+    /* main content */
+    font-family: 'Outfit-Regular';
+    src: url('/assets/fonts/outfit/static/Outfit-Regular.ttf');
+}
+@font-face{
+    /* main content */
+    font-family: 'Outfit-SemiBold';
+    src: url('/assets/fonts/outfit/static/Outfit-SemiBold.ttf');
+}
+@font-face{
+    /* main content */
+    font-family: 'Outfit-Thin';
+    src: url('/assets/fonts/outfit/static/Outfit-Thin.ttf');
+}
+/* Fonts */
+
+html{
+    background-color: hsl(30, 54%, 90%);
+}
+
+body{
+    max-width: 1440px;
+    background-color: hsl(330, 100%, 98%)
+}
+
+/* footer */
+.attribution{ 
+    font-size: 11px; text-align: center; 
+}
+.attribution a{ 
+    color: hsl(228, 45%, 44%); 
+}
