@@ -79,7 +79,7 @@ body li{
 img{
     max-width: 100%;
     width: 100%;
-    height: auto;
+    height: 300px;
     border-radius: 10px;
 }
 
@@ -92,7 +92,7 @@ h2{
 .title{
     color: hsl(24, 5%, 18%);
     font-family: Young-Serif;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 45px;
     padding-top: 20px;
     margin: 0;
@@ -137,6 +137,7 @@ h2{
     color: hsl(14, 45%, 36%);
     padding-top: 1%;
     font-size: 28px;
+    font-weight: 600;
 }
 
 .ingredientsTileParent li{
@@ -159,7 +160,7 @@ h2{
 .instructionsTileParent h2{
     color: hsl(14, 45%, 36%);
     padding-top: 1%;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 28px;
 }
 
@@ -190,7 +191,7 @@ h2{
 .nutritionTileParent h2{
     color: hsl(14, 45%, 36%);
     padding-top: 1%;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 28px;
 }
 
@@ -203,7 +204,7 @@ h2{
     height: 0;
     padding-top: 5px;
     font-family: Outfit-ExtraLight;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 18px;
 
 }
@@ -220,7 +221,7 @@ h2{
 .nutritionTable p{
     padding-left: 4%;
     font-family: Outfit-ExtraLight;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .nutritionTable strong{
