@@ -65,7 +65,7 @@ body{
     max-width: 735px;
     border-radius: 30px;
     padding: 40px;
-    height: 1660px;
+    height: auto;
 }
 
 body p, 
