@@ -54,8 +54,10 @@ html{
     background-color: hsl(30, 54%, 90%);
     display: table;
     margin: auto;
-    padding-top: 70px;
+    padding-top: 115px;
     height: auto;
+    padding-bottom: 115px;
+    max-width: 1440px;
 }
 
 body{
@@ -63,8 +65,15 @@ body{
     width: 735px;
     border-radius: 30px;
     padding: 40px;
-    height: auto;
+    height: 1640px;
+}
 
+body p, 
+body li{
+    font-size: 16px;
+    font-family: Outfit;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
 }
 
 img{
@@ -74,44 +83,60 @@ img{
     border-radius: 10px;
 }
 
+h2{
+    font-family: Young-Serif;
+    font-weight: 400;
+}
+
 /* title name and desctiption selector */
 .title{
     color: hsl(24, 5%, 18%);
     font-family: Young-Serif;
-    font-weight: 400px;
+    font-weight: 400;
+    font-size: 45px;
+    padding-top: 20px;
+    margin: 0;
 }
 
 .description{
-    padding-bottom: 1%;
+    padding-bottom: 1.3%;
+    text-align: left;
+    font-family: Outfit-ExtraLight;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 /* preperation tile displaying quick notes */
 .preparationTileParent{
     background-color: hsl(330, 100%, 98%);
-    height: 150px;
+    height: 170px;
     border-radius: 10px;
 }
 
 .preparationTileParent h3{
     font-family: Outfit;
     color: hsl(332, 51%, 32%);
-    padding-left: 2.5%;
+    padding-left: 2.6%;
     padding-top: 2%;
 }
 
 .preparationTileParent li{
+    font-weight: 400;
     padding-bottom: 10px;
     padding-left: 2%;
 }
 
 .preparationTileParent li::marker{
-    color: hsl(332, 51%, 32%);
+    color: hsl(14, 45%, 36%);
+    font-size: small;
+
 }
 
 /* ingredients sectioning */
 .ingredientsTileParent h2{
     color: hsl(14, 45%, 36%);
     padding-top: 1%;
+    font-size: 28px;
 }
 
 .ingredientsTileParent li{
@@ -121,7 +146,8 @@ img{
 }
 
 .ingredientsTileParent li::marker{
-    color: hsl(332, 51%, 32%);
+    font-size: small;
+    color: hsl(14, 45%, 36%);
 }
 
 .ingredientsTileParent li span{
@@ -133,6 +159,8 @@ img{
 .instructionsTileParent h2{
     color: hsl(14, 45%, 36%);
     padding-top: 1%;
+    font-weight: 400;
+    font-size: 28px;
 }
 
 .instructionsTileParent li{
@@ -142,33 +170,58 @@ img{
 }
 
 .instructionsTileParent li::marker{
-    color: hsl(332, 51%, 32%);
+    font-family: Outfit-SemiBold;
+    color: hsl(14, 45%, 36%);
+}
+
+.instructionsTileParent strong{
+    font-weight: 700;
 }
 
 .instructionsTileParent li span{
     position: relative;
     left: 1.5%;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 /* nution sectioning */
+
 .nutritionTileParent h2{
-color: hsl(14, 45%, 36%);
-padding-top: 1%;
+    color: hsl(14, 45%, 36%);
+    padding-top: 1%;
+    font-weight: 400;
+    font-size: 28px;
 }
 
 .nutritionDescription{
-    padding-bottom: 2%;
+    padding-bottom: 3%;
 }
 
 /* nutrition Table */
+.nutritionDescription{
+    height: 0;
+    padding-top: 5px;
+    font-family: Outfit-ExtraLight;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
 .nutritionTable p,
 .nutritionTable strong{
     display: inline-block;
-    width: 38%;
+    width: 340px;
+    height: 0;
+    position: relative;
+    bottom: 5px;
+    
 }
 
 .nutritionTable p{
     padding-left: 4%;
+    font-family: Outfit-ExtraLight;
+    font-weight: 600;
 }
 
 .nutritionTable strong{
@@ -176,9 +229,14 @@ padding-top: 1%;
     font-family: Outfit-SemiBold;
 }
 
+hr{
+    border: 1px solid hsl(30, 18%, 87%);
+}
+
 /* footer */
 .attribution{ 
-    padding-top: 5%;
+    position: relative;
+    top: 130px;
     font-size: 11px; 
     text-align: center; 
 }
