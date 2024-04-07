@@ -55,6 +55,7 @@ html{
     display: table;
     margin: auto;
     padding-top: 70px;
+    height: auto;
 }
 
 body{
@@ -62,6 +63,8 @@ body{
     width: 735px;
     border-radius: 30px;
     padding: 40px;
+    height: auto;
+
 }
 
 img{
@@ -71,6 +74,7 @@ img{
     border-radius: 10px;
 }
 
+/* title name and desctiption selector */
 .title{
     color: hsl(24, 5%, 18%);
     font-family: Young-Serif;
@@ -81,6 +85,7 @@ img{
     padding-bottom: 1%;
 }
 
+/* preperation tile displaying quick notes */
 .preparationTileParent{
     background-color: hsl(330, 100%, 98%);
     height: 150px;
@@ -103,6 +108,7 @@ img{
     color: hsl(332, 51%, 32%);
 }
 
+/* ingredients sectioning */
 .ingredientsTileParent h2{
     color: hsl(14, 45%, 36%);
     padding-top: 1%;
@@ -123,9 +129,58 @@ img{
     left: 1.5%;
 }
 
+/* instructions sectioning */
+.instructionsTileParent h2{
+    color: hsl(14, 45%, 36%);
+    padding-top: 1%;
+}
+
+.instructionsTileParent li{
+    padding-bottom: 10px;
+    position: relative;
+    left: -2.5%;
+}
+
+.instructionsTileParent li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+.instructionsTileParent li span{
+    position: relative;
+    left: 1.5%;
+}
+
+/* nution sectioning */
+.nutritionTileParent h2{
+color: hsl(14, 45%, 36%);
+padding-top: 1%;
+}
+
+.nutritionDescription{
+    padding-bottom: 2%;
+}
+
+/* nutrition Table */
+.nutritionTable p,
+.nutritionTable strong{
+    display: inline-block;
+    width: 38%;
+}
+
+.nutritionTable p{
+    padding-left: 4%;
+}
+
+.nutritionTable strong{
+    color: hsl(14, 45%, 36%);
+    font-family: Outfit-SemiBold;
+}
+
 /* footer */
 .attribution{ 
-    font-size: 11px; text-align: center; 
+    padding-top: 5%;
+    font-size: 11px; 
+    text-align: center; 
 }
 .attribution a{ 
     color: hsl(228, 45%, 44%); 
