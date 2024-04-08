@@ -1,97 +1,56 @@
-# Frontend Mentor - Recipe page solution
+# Recipe Page Solution
 
-This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This repository contains my solution to the Recipe page challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges provide an excellent opportunity to enhance coding skills by working on realistic projects.
 
-## Table of contents
+## Table of Contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [The Challenge](#the-challenge)
+  - [Screenshots](#screenshots)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [My Process](#my-process)
+  - [Built With](#built-with)
+  - [Key Learnings](#key-learnings)
+  - [Future Development](#future-development)
+  - [Helpful Resources](#helpful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
-### Screenshot
+### The Challenge
+
+The challenge was to create a recipe page that is responsive and visually appealing. The page should display the recipe details and ingredients in an organized layout.
+
+### Screenshots
+
 <img src="assets/recipe-page-main_desktop.jpeg" width="100%"/>
 <img src="assets/recipe-page-main_mobile.jpeg" width="100%"/>
 
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/prophesierc-recipepagemain-kS2ZZxZPx1)
+- [Live Site URL](https://prophesierc.github.io/recipe-page-main/)
 
-## My process
+## My Process
 
-### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+### Key Learnings
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+While working on this project, I reinforced my understanding of HTML semantics and improved my multi device functionality structures.
 
-### What I learned
+### Future Development
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+In future projects, I aim to delve deeper into mobile-first CSS structures as well as more consistent display and positioning methods.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?style=flat-square&logo=github)](https://github.com/prophesierc)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+[![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-Profile-green?style=flat-square&logo=frontend-mentor)](https://www.frontendmentor.io/profile/prophesierc)
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/ProphesierC)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I'd like to acknowledge the Frontend Mentor community for providing an excellent platform to enhance coding skills through real-world projects.
