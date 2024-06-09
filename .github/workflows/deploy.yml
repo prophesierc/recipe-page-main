@@ -1,0 +1,23 @@
+name: Deploy to Server
+
+on:
+  push:
+    branches:
+      - main  
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Copy files to server
+        uses: appleboy/scp-action@master
+        with:
+          source: "." 
+          target: "/var/www/prophesierc.site/prophesierc/recipe-page-main"
+          host: prophesierc.site
+          username: deploy
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
